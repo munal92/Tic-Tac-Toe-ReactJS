@@ -8,7 +8,7 @@ const AlertPopup = (props) => {
 
   return (
     <div className="popUp">
-      <Alert variant="success">
+      <Alert  variant="success">
         <Alert.Heading> {props.ticOX.message}</Alert.Heading>
         <p>
           {props.ticOX.message === "Congrats!"

@@ -60,7 +60,7 @@ const TicTacTable = () => {
 
   const handleTTclick = (value) => {
     const filteredTic = tictac.filter((tic) => {
-      if (tic.id === value && tic.ch === "\0") {
+      if (tic.id === value && tic.ch === "\0" && show) {
         if (ticOX.current === "X") {
           setTicOX({
             ...ticOX,
